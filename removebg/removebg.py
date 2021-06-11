@@ -43,7 +43,7 @@ class RemoveBg(object):
                                        crop=None, scale="original", 
                                        position="original", channels="rgba", 
                                        shadow=False, semitransparency=True,
-                                       bg=None, bg_type=None, new_file_name="no-bg.png"):
+                                       bg=None, bg_type=None, new_file_name="/content/no-bg.png"):
         """
         Removes the background given an image file.
         
@@ -109,7 +109,7 @@ class RemoveBg(object):
                                        crop=None, scale="original", 
                                        position="original", channels="rgba", 
                                        shadow=False, semitransparency=True,
-                                       bg=None, bg_type=None, new_file_name="no-bg.png"):
+                                       bg=None, bg_type=None, new_file_name="/content/no-bg.png"):
         """
         Removes the background given an image URL.
         
@@ -171,7 +171,7 @@ class RemoveBg(object):
                                           crop=None, scale="original", 
                                           position="original", channels="rgba", 
                                           shadow=False, semitransparency=True,
-                                          bg=None, bg_type=None, new_file_name="no-bg.png"):
+                                          bg=None, bg_type=None, new_file_name="/content/no-bg.png"):
         """
         Removes the background given a base64 image string.
         
